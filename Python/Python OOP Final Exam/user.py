@@ -1,6 +1,4 @@
 from abc import ABC
-# from admin import Admin
-# from panel import Panel
 
 class Person(ABC):
     def __init__(self, name, email, address):
