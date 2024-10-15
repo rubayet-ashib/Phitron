@@ -3,142 +3,187 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practice Day - 1</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Practice Day - 01</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="logo_container">
-          <img class="logo" src="assets/logo.png" alt="Logo" />
-        </div>
-        <div class="menu_items_container">
-          <li>Home</li>
-          <li>Services</li>
-          <li>Contact us</li>
-          <li>Login</li>
+    <header id="home">
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <input type="checkbox" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-us">Contact us</a></li>
+            <li><a href="#login">Login</a></li>
+          </ul>
+          <img class="logo" src="assets/logo.png" alt="" />
         </div>
       </nav>
-      <div class="header_element_container">
-        <div class="left_container">
-          <h4>We Provide The best security Service</h4>
-          <h1>Safety & surity At <br />Your Fingertips</h1>
-          <button>React More</button>
+      <div class="header-container">
+        <div class="container1">
+          <p>We Provide The best security Service</p>
+          <h1 class="main-title">Safety & surity at <br />your fingertips</h1>
+
+          <a href="" class="btn btn-primary">React More</a>
         </div>
-        <div class="right_container">
+        <div class="container2">
           <img src="assets/person1.png" alt="" />
         </div>
       </div>
     </header>
+
     <main>
-      <div class="container1">
-        <img src="assets/img1.png" alt="" />
-        <img src="assets/img2.png" alt="" />
-        <img src="assets/img3.png" alt="" />
-        <img src="assets/img4.png" alt="" />
-        <img src="assets/img3.png" alt="" />
-      </div>
-      <div class="container2">
-        <div class="title">
-          <h2>Our Services</h2>
-          <img src="assets/line.png" alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis rem,
-            ullam eius ea nisi esse dicta quod deleniti perferendis sed?
-          </p>
+      <section class="badges">
+        <div class="img-box-container">
+          <div class="img-container"><img src="assets/img1.png" alt="" /></div>
+          <div class="img-container"><img src="assets/img2.png" alt="" /></div>
+          <div class="img-container"><img src="assets/img3.png" alt="" /></div>
+          <div class="img-container"><img src="assets/img4.png" alt="" /></div>
+          <div class="img-container"><img src="assets/img3.png" alt="" /></div>
         </div>
+      </section>
 
-        <div class="inner_container">
-          <div>
-            <img src="assets/card_img1.png" alt="" />
-            <h2>Network Security</h2>
+      <section id="services">
+        <div class="services-container-big">
+          <div class="title-tag">
+            <h2 class="services-heading">Our Services</h2>
             <img src="assets/line.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              nihil!
-            </p>
           </div>
-          <div>
-            <img src="assets/card_img2.png" alt="" />
-            <h2>House Security</h2>
-            <img src="assets/line.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              nihil!
-            </p>
-          </div>
-          <div>
-            <img src="assets/card_img3.png" alt="" />
-            <h2>Transport Security</h2>
-            <img src="assets/line.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              nihil!
-            </p>
-          </div>
-          <div>
-            <img src="assets/card_img1.png" alt="" />
-            <h2>Private Security</h2>
-            <img src="assets/line.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              nihil!
-            </p>
-          </div>
-          <div>
-            <img src="assets/card_img4.png" alt="" />
-            <h2>Website Security</h2>
-            <img src="assets/line.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              nihil!
-            </p>
-          </div>
-          <div>
-            <img src="assets/card_img5.png" alt="" />
-            <h2>CCTV Security</h2>
-            <img src="assets/line.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              nihil!
-            </p>
+          <div class="services-items-container">
+            <div class="services-item">
+              <div class="services-title">
+                <img src="assets/card_img1.png" alt="" />
+                <h2>Network Security</h2>
+                <img src="assets/line.png" alt="" />
+              </div>
+              <div class="services-description">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officiis, unde. Officiis debitis vero minima quidem.
+                </p>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-title">
+                <img src="assets/card_img2.png" alt="" />
+                <h2>House Security</h2>
+                <img src="assets/line.png" alt="" />
+              </div>
+              <div class="services-description">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officiis, unde. Officiis debitis vero minima quidem.
+                </p>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-title">
+                <img src="assets/card_img3.png" alt="" />
+                <h2>Transport Security</h2>
+                <img src="assets/line.png" alt="" />
+              </div>
+              <div class="services-description">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officiis, unde. Officiis debitis vero minima quidem.
+                </p>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-title">
+                <img src="assets/card_img1.png" alt="" />
+                <h2>Private Security</h2>
+                <img src="assets/line.png" alt="" />
+              </div>
+              <div class="services-description">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officiis, unde. Officiis debitis vero minima quidem.
+                </p>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-title">
+                <img src="assets/card_img4.png" alt="" />
+                <h2>Website Security</h2>
+                <img src="assets/line.png" alt="" />
+              </div>
+              <div class="services-description">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officiis, unde. Officiis debitis vero minima quidem.
+                </p>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-title">
+                <img src="assets/card_img5.png" alt="" />
+                <h2>CCTV Security</h2>
+                <img src="assets/line.png" alt="" />
+              </div>
+              <div class="services-description">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officiis, unde. Officiis debitis vero minima quidem.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="container3">
-        <div class="left_container">
-          <img src="assets/person2.png" alt="" />
-        </div>
-        <div class="right_container">
-          <button>Hire us</button>
-          <h1>
-            We Will Make Your
-            <span>Home & <br />Business Completely Safe.</span>
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequatur, modi ipsa sint nulla commodi vel ex ea pariatur
-            excepturi neque laborum voluptate aperiam delectus vero eos,
-            deleniti veritatis recusandae dignissimos, rem fugiat facere. Ipsam
-            laborum omnis quisquam iure aspernatur numquam blanditiis magnam
-            provident saepe, obcaecati, inventore perferendis quia enim aliquid.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nisi
-            beatae alias! Quisquam quod, expedita fugiat quas maiores saepe
-            necessitatibus et, iusto laborum voluptatem dolorum esse quae
-            aliquid doloremque consequatur.
-          </p>
-
-          <div class="consultation">
-            <img src="assets/phone.png" alt="" />
-            <h2>Get free consultation</h2>
+      <!-- Contact us section -->
+      <section id="contact-us">
+        <div class="contact-us-container">
+          <div class="left-container">
+            <img src="assets/person2.png" alt="" />
           </div>
-          <h2>+(81) 1800-1256-1254</h2>
+          <div class="right-container">
+            <a href="" class="hire-btn">Hire us</a>
+            <h1>
+              We Will Make Your
+              <span>Home & <br />Business Completely Safe.</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur, modi ipsa sint nulla commodi vel ex ea pariatur
+              excepturi neque laborum voluptate aperiam delectus vero eos,
+              deleniti veritatis recusandae dignissimos, rem fugiat facere.
+              Ipsam laborum omnis quisquam iure aspernatur numquam blanditiis
+              magnam provident saepe, obcaecati, inventore perferendis quia enim
+              aliquid.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
+              nisi beatae alias! Quisquam quod, expedita fugiat quas maiores
+              saepe necessitatibus et, iusto laborum voluptatem dolorum esse
+              quae aliquid doloremque consequatur.
+            </p>
+
+            <div class="consultation">
+              <img src="assets/phone.png" alt="" />
+              <h2>Get free consultation</h2>
+            </div>
+            <h2 class="contact-no">+(81) 1800-1256-1254</h2>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
+
+    <!-- Footer section -->
     <footer>
       <div class="row1">
         <div class="div1">
